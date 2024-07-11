@@ -1,4 +1,5 @@
-package cloudcode.helloworld;
+/*
+package cloudcode.loom;
 
 import java.util.Collections;
 import org.slf4j.Logger;
@@ -6,7 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/** This class serves as an entry point for the Spring Boot app. */
+*/
+/** This class serves as an entry point for the Spring Boot app. *//*
+
 @SpringBootApplication
 public class HelloWorldApplication {
 
@@ -27,3 +30,4 @@ public class HelloWorldApplication {
         "Hello from Cloud Run! The container started successfully and is listening for HTTP requests on " + port);
   }
 }
+*/

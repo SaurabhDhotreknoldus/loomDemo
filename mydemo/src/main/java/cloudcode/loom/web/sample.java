@@ -1,4 +1,5 @@
-package cloudcode.helloworld.web;
+/*
+package cloudcode.loom.web;
 
 
 import org.springframework.http.ResponseEntity;
@@ -6,10 +7,13 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/loom")
-public class Sample2 {
+public class sample {
 
-    @GetMapping("/sample2")
+    @GetMapping("/sample")
     public ResponseEntity<String> searchPosts() {
-        return ResponseEntity.ok("Ok Tested Sample 2");
+        return ResponseEntity.ok("Ok");
     }
+
+
 }
+*/
