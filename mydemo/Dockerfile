@@ -22,3 +22,4 @@ COPY --from=build-env /app/target/loom-demo-*.jar /loom-demo.jar
 
 # Run the web service on container startup.
 CMD ["java", "-jar", "loom-demo.jar"]
+ENTRYPOINT ["java", "--enable-preview", "-jar", "loom-demo.jar"]
